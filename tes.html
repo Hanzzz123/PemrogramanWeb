@@ -1,0 +1,84 @@
+<div class="header">
+    <h1>Hanz's Gallery (for Sale)</h1>
+    <p>Welcome to my Art Auction!</p>
+</div>
+
+<style>
+    .header {
+        padding: 60px;
+        max-width: 66.6%;
+        height: auto;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 30px;
+    }
+</style>
+
+<div class = "rules">
+    <h1> RULES!!!!!</h1>
+</div>
+
+<style>
+    .rules{
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        width: 200px;
+        height: 100px;
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        img {
+            width: 33.3%;
+            height: 60%;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+
+</html>
+
+<div class="row">
+    <div class="column">
+        <img src="gambar.jpg" alt="The Starry Night" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="wave-of-kanagawa.jpg" alt="wave" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="mona.jpg" alt="mona" style="width:100%">
+    </div>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
